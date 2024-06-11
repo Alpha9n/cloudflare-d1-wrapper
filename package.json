@@ -10,5 +10,5 @@
     "unofficial cloudflare rest api wrapper"
   ],
   "author": "Alpha9n",
-  "license": "ISC"
+  "license": "MIT"
 }

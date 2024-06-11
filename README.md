@@ -2,14 +2,19 @@
 cloudflare REST API wrapper for D1 database.
 
 ## Installation
-WIP
+```bash
+npm i cloudflare-d1-wrapper
+```
 
 ## Example
 ```typescript
-import wrapper from 'cloudflare-d1-wrapper';
+import D1Wrapper from 'cloudflare-d1-wrapper';
 
-// WIP
+const API_KEY = 'YOUR_API_KEY';
 
+const wrapper = new D1Wrapper(API_KEY);
+
+const databaseMeta = wrapper.getDatabase('YOUR_ACCOUNT_ID', 'YOUR_DATABASE_ID');
 ```
 
 ## License

@@ -1,4 +1,4 @@
-interface QueryResponse<T> {
+export interface QueryResponse<T> {
     result: {
         meta: {
             changed_db: boolean
@@ -12,6 +12,32 @@ interface QueryResponse<T> {
         results: T[]
         success: boolean
     }[]
+    errors: Error[]
+    messages: Message[]
+    success: boolean
+}
+
+export interface GetDBResponse {
+    result: {
+        created_at: String
+        file_size: number
+        name: string
+        num_tables: number
+        uuid: string
+        version: string
+    }[]
+    errors: Error[]
+    messages: Message[]
+    success: boolean
+}
+
+export interface CreateDBResponse {
+    result: {
+        created_at: string
+        name: string
+        uuid: string
+        version: string
+    }
     errors: Error[]
     messages: Message[]
     success: boolean

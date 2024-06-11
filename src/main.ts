@@ -1,6 +1,6 @@
 import { BASE_URL, CreateDBResponse, GetDBResponse, QueryResponse } from "./consts";
 
-export default class d1Wrapper {
+export default class D1Wrapper {
     private key;
     private headers: HeadersInit;
 

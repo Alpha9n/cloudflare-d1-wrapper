@@ -3,7 +3,10 @@ cloudflare REST API wrapper for D1 database.
 
 ## Installation
 ```bash
+# via npm
 npm i cloudflare-d1-wrapper
+# via jsr (use npm)
+npx jsr add @alpha9n/cloudflare-d1-wrapper
 ```
 
 ## Example

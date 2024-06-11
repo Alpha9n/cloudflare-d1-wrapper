@@ -1,15 +1,20 @@
-# Cloudflare RESTAPI wrapper for D1
-cloudflare RESTAPI wrapper for D1 database.
+# Cloudflare REST API wrapper for D1
+cloudflare REST API wrapper for D1 database.
 
 ## Installation
-WIP
+```bash
+npm i cloudflare-d1-wrapper
+```
 
 ## Example
 ```typescript
-import wrapper from 'cloudflare-d1-wrapper';
+import D1Wrapper from 'cloudflare-d1-wrapper';
 
-// WIP
+const API_KEY = 'YOUR_API_KEY';
 
+const wrapper = new D1Wrapper(API_KEY);
+
+const databaseMeta = wrapper.getDatabase('YOUR_ACCOUNT_ID', 'YOUR_DATABASE_ID');
 ```
 
 ## License
@@ -17,8 +22,8 @@ import wrapper from 'cloudflare-d1-wrapper';
 
 ## Features
 - [ ] [Get database list](https://developers.cloudflare.com/api/operations/cloudflare-d1-list-databases)
-- [ ] [Create database](https://developers.cloudflare.com/api/operations/cloudflare-d1-create-database)
+- [x] [Create database](https://developers.cloudflare.com/api/operations/cloudflare-d1-create-database)
 - [ ] [Delete database](https://developers.cloudflare.com/api/operations/cloudflare-d1-delete-database)
-- [ ] [Get database](https://developers.cloudflare.com/api/operations/cloudflare-d1-get-database)
-- [ ] [Query database](https://developers.cloudflare.com/api/operations/cloudflare-d1-query-database)
+- [x] [Get database](https://developers.cloudflare.com/api/operations/cloudflare-d1-get-database)
+- [x] [Query database](https://developers.cloudflare.com/api/operations/cloudflare-d1-query-database)
 - [ ] [Raw database query](https://developers.cloudflare.com/api/operations/cloudflare-d1-raw-database-query)

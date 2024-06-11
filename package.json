@@ -1,12 +1,14 @@
 {
-  "name": "CloudFlareD1Wrapper",
+  "name": "cloudflare-d1-wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "cloudflare REST API wrapper for D1 database.",
   "main": "src/main.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {},
+  "keywords": [
+    "api",
+    "wrapper",
+    "unofficial cloudflare rest api wrapper"
+  ],
+  "author": "Alpha9n",
+  "license": "MIT"
 }

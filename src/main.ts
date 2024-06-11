@@ -1,4 +1,4 @@
-import { BASE_URL, CreateDBResponse, GetDBResponse, QueryResponse } from "./consts";
+import { BASE_URL, CreateDBResponse, GetDBResponse, QueryResponse } from "./consts.ts";
 
 export default class D1Wrapper {
     private key;

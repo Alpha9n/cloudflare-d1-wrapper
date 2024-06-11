@@ -1,5 +1,5 @@
-# Cloudflare RESTAPI wrapper for D1
-cloudflare RESTAPI wrapper for D1 database.
+# Cloudflare REST API wrapper for D1
+cloudflare REST API wrapper for D1 database.
 
 ## Installation
 WIP

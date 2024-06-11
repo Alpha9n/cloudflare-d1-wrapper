@@ -43,6 +43,8 @@ export interface CreateDBResponse {
     success: boolean
 }
 
+export const BASE_URL = 'https://api.cloudflare.com/client/v4';
+
 interface Error {
     code: number // >=1000
     message: string
